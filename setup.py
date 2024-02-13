@@ -30,6 +30,7 @@ setup(
     description="Un robot qui vous veut du bien",
     packages=find_packages(),
     install_requires=[
+        "matrix-nio",
         "amicus_interfaces",
     ],
     classifiers=[
