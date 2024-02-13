@@ -1,0 +1,1 @@
+# An example of amicus-bot's plugin
