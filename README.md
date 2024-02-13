@@ -1,1 +1,1 @@
-# An example of amicus-bot's plugin
+# An example of amicus-bot plugin
