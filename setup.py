@@ -24,7 +24,7 @@ long_description = read_file(("README.md",))
 
 
 setup(
-    name="amicus-plugin-test",
+    name="test",
     version='0.1.0',
     url="https://github.com/mauceri/amicus-plugin-test",
     description="Un robot qui vous veut du bien",
