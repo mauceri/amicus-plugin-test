@@ -7,7 +7,7 @@ logger = logging.getLogger(__name__)
 
 class Echo(IObserver):
     def __init__(self,observable:IObservable=None):
-        self.observable =observable
+        self.__observable =observable
 
     async def notify(self,room:MatrixRoom, event:RoomMessageText, msg:str):
         logger.info(f"***************************** L'utilisateur {event.sender} a écrit {msg} depuis ls salon {room.name}")
