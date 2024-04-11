@@ -19,7 +19,7 @@ class Echo(IObserver):
     
 class Plugin(IPlugin):
     def __init__(self,observable:IObservable,path:str):
-        super().__init__(self,observable,str)
+        super().__init__(observable,str)
         self.echo = Echo(self.__observable)
         logger.info(f"********************** Observateur créé {self.echo.prefix()}")
         
