@@ -18,10 +18,6 @@ class Echo(IObserver):
         return "!echo"
     
 class Plugin(IPlugin):
-    def __init__(self,observable:IObservable):
-        self.__observable = observable
-        self.echo = Echo(self.__observable)
-        logger.info(f"********************** Observateur créé {self.echo.prefix()}")
         
     def start(self):
         logger.info(f"********************** Inscripton de {self.echo.prefix()}")
