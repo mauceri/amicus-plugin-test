@@ -31,7 +31,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "matrix-nio",
-        "amicus_interfaces",
+        "amicus_interfaces>=0.1.3",
     ],
     classifiers=[
         "Programming Language :: Python :: 3",
